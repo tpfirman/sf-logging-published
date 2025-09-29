@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EnforceValue</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    logging_level__c &lt;&gt; &apos;ERROR&apos;,
+    logging_level__c &lt;&gt; &apos;WARN&apos;,
+    logging_level__c &lt;&gt; &apos;INFO&apos;,
+    logging_level__c &lt;&gt; &apos;DEBUG&apos;
+)</errorConditionFormula>
+    <errorDisplayField>logging_level__c</errorDisplayField>
+    <errorMessage>Must be ERROR, WARN, INFO, DEBUG</errorMessage>
+</ValidationRule>
