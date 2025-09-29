@@ -1,5 +1,20 @@
 # Salesforce Logging Framework
 
+## Table of Contents
+- [Salesforce Logging Framework](#salesforce-logging-framework)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Note from Author](#note-from-author)
+  - [Features](#features)
+  - [Architecture](#architecture)
+  - [Setup](#setup)
+  - [Usage](#usage)
+    - [In Flows](#in-flows)
+    - [In Apex](#in-apex)
+  - [Contributing](#contributing)
+  - [Code of Conduct](#code-of-conduct)
+  - [Security Policy](#security-policy)
+
 A robust logging framework for Salesforce built to be lightweight, easy to use, and highly configurable. This framework provides a way to capture and store log data from your Apex classes, triggers, and flows.
 
 ## Overview
