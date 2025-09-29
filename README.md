@@ -114,5 +114,26 @@ public class MyClass {
 
 **Important:** You must call `LoggingEngine.saveLogs()` at the end of your transaction to ensure that the logs are published. A good practice is to place this call in a `finally` block.
 
+## Contributing
 
+Contributions are welcome, however I can't gaurentee how qucikly I will review.
 
+To contribute:
+
+1. **Fork** the repository
+2. **Create** a new branch for your feature or bugfix
+3. **Make** your changes
+4. **Test** your changes thoroughly
+5. **Submit** a pull request
+
+When submitting a pull request, please use the provided PR template to describe what features you added, how you implemented them, and what your goal was.
+
+## Code of Conduct
+
+We expect all contributors to maintain a respectful and professional environment. Rudeness or disrespect will not be tolerated. Be kind, constructive, and collaborative in all interactions.
+
+## Security Policy
+
+This logging framework uses only internal Salesforce technologies and does not require any external webhooks, security tokens, or secrets. It operates entirely within the Salesforce platform's security model.
+
+**Important:** Pull requests that include external API calls, webhooks, or handling of external secrets will most likely be denied to maintain the security and simplicity of this framework.
